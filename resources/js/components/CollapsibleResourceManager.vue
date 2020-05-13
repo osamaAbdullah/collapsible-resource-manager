@@ -28,8 +28,9 @@
 
         <template v-if="isGroup && data.resources.length">
 
-            <h4 class="relative select-none ml-8 mt-4 text-xs text-white-50% uppercase tracking-wide cursor-pointer"
+            <h4 class="relative select-none mt-4 mb-4 text-xs text-white-50% uppercase tracking-wide cursor-pointer"
                 v-if="data.label"
+                style="margin-left: 13%; font-size: 1.1em"
                 @click="toggleGroup(data.id)">
 
                 <div class="absolute flex flex-auto collapsible-indicator">

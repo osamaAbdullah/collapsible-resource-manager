@@ -2,7 +2,8 @@
 
     <ul class="list-reset">
 
-        <li class="leading-tight pt-4 text-sm" v-for="resource of resources" :class="{ 'ml-8': !recursive }">
+        <li style="margin: 15px 0 15px 18px;font-size: 1.2em;padding-top: 0"
+            v-for="resource of resources">
 
             <collapsible-resource-manager v-if="resource.type === 'group'"
                                           :data="resource"
